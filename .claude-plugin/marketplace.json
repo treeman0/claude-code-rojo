@@ -10,7 +10,7 @@
     {
       "name": "rojo-helper",
       "description": "Rojo integration for Claude Code with dependency doctor and setup commands. Verifies and installs Rokit, Rojo CLI, and the Roblox Studio plugin at pinned stable versions. Includes serve/build commands, a project skill, and a pre-edit hook. Pinned to Rojo 7.6.1.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "source": "./rojo-helper",
       "category": "development",
       "keywords": ["rojo", "roblox", "luau", "studio"]

@@ -1,6 +1,6 @@
 {
   "name": "rojo-helper",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Rojo integration for Claude Code. Includes /rojo-doctor (health check) and /rojo-setup (install/update Rokit, Rojo CLI, and Studio plugin to pinned versions), plus serve/stop/build/status commands, a project skill, and an optional pre-edit hook. Pinned to Rojo 7.6.1.",
   "author": {
     "name": "Your Name"
