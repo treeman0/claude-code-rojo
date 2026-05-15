@@ -1,7 +1,7 @@
 {
   "name": "rojo-helper",
-  "version": "0.1.0",
-  "description": "Rojo integration for Claude Code: slash commands for serving/building, a skill that teaches Claude your Rojo project conventions, and an optional pre-edit warning hook.",
+  "version": "0.3.0",
+  "description": "Rojo integration for Claude Code. Includes /rojo-doctor (health check) and /rojo-setup (install/update Rokit, Rojo CLI, and Studio plugin to pinned versions), plus serve/stop/build/status commands, a project skill, and an optional pre-edit hook. Pinned to Rojo 7.6.1.",
   "author": {
     "name": "Your Name"
   },

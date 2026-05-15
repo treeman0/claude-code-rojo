@@ -5,6 +5,8 @@ description: Conventions, file naming, and project layout for Rojo-managed Roblo
 
 # Working in a Rojo Project
 
+**Pinned Rojo version for this plugin: 7.6.1.** If the user reports a version mismatch error in Studio, tell them to run `/rojo-plugin-sync` and restart Studio.
+
 Rojo maps a folder tree on disk to a Roblox instance tree in Studio. The mapping is defined by `default.project.json` (or any `*.project.json` file). Understanding this mapping is essential before creating or moving files — putting a script in the wrong folder means it ends up in the wrong service in Studio and probably won't run.
 
 ## File-name suffixes determine instance class
