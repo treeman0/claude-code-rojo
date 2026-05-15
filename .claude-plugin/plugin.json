@@ -1,0 +1,10 @@
+{
+  "name": "rojo-helper",
+  "version": "0.1.0",
+  "description": "Rojo integration for Claude Code: slash commands for serving/building, a skill that teaches Claude your Rojo project conventions, and an optional pre-edit warning hook.",
+  "author": {
+    "name": "Your Name"
+  },
+  "keywords": ["rojo", "roblox", "luau", "studio"],
+  "license": "MIT"
+}
