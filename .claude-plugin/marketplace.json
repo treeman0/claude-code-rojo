@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "treeman0",
+  "version": "1.0.0",
+  "description": "Claude Code plugins by treeman0",
+  "owner": {
+    "name": "treeman0"
+  },
+  "plugins": [
+    {
+      "name": "rojo-helper",
+      "description": "Rojo integration for Claude Code: slash commands for serving/building, a skill that teaches Claude Rojo project conventions, and an optional pre-edit warning hook.",
+      "version": "0.1.0",
+      "source": "./rojo-helper",
+      "category": "development",
+      "keywords": ["rojo", "roblox", "luau", "studio"]
+    }
+  ]
+}
