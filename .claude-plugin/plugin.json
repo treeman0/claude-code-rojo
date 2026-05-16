@@ -3,8 +3,10 @@
   "version": "0.3.1",
   "description": "Rojo integration for Claude Code. Includes /rojo-doctor (health check) and /rojo-setup (install/update Rokit, Rojo CLI, and Studio plugin to pinned versions), plus serve/stop/build/status commands, a project skill, and an optional pre-edit hook. Pinned to Rojo 7.6.1.",
   "author": {
-    "name": "Your Name"
+    "name": "treeman0"
   },
-  "keywords": ["rojo", "roblox", "luau", "studio"],
-  "license": "MIT"
+  "homepage": "https://github.com/treeman0/claude-code-rojo",
+  "repository": "https://github.com/treeman0/claude-code-rojo",
+  "license": "MIT",
+  "keywords": ["rojo", "roblox", "luau", "studio"]
 }
