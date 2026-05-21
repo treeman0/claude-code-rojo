@@ -13,7 +13,8 @@ A Claude Code plugin for working on Roblox games managed by [Rojo](https://rojo.
 
 **Day-to-day**
 - `/rojo-serve` — start the Rojo sync server in the background
-- `/rojo-stop` — stop the running server
+- `/rojo-serve-all` — start one server per `*.project.json` at the repo root, each on its own port (use for multi-place projects like a hub + round place)
+- `/rojo-stop` — stop the running server(s)
 - `/rojo-status` — show whether the server is running and tail recent logs
 - `/rojo-build [output]` — build a `.rbxlx` from the project (defaults to `build.rbxlx`)
 
@@ -80,5 +81,6 @@ cp -r claude-code-rojo ~/.claude/plugins/rojo-helper
 ## Notes
 
 - `/rojo-serve` logs to `.rojo-server.log` (in the repo's `.gitignore`).
+- `/rojo-serve-all` logs to `.rojo-server-<projectname>.log` per project (e.g., `.rojo-server-hub.log`); add the same glob to `.gitignore` if you adopt the multi-place flow.
 - The pre-edit hook only fires when a `*.project.json` is present in the working directory.
 - Delete `hooks/` if you don't want the warning.
